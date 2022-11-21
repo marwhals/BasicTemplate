@@ -1,0 +1,30 @@
+% This is a template for doing homework assignments in LaTeX
+
+\documentclass{report} % This command is used to set the type of document you are working on such as an article, book, or presenation
+
+\usepackage{geometry} % This package allows the editing of the page layout
+\usepackage{graphicx}  % This package allows the importing of images
+\renewcommand{\familydefault}{\sfdefault}
+%\title{Title here}
+%\author{Marjan}
+%\date{\today}
+
+
+\newcommand{\maketitletwo} % Use a custom command  
+	{\begin{center}
+        \Large{\textbf{Title Here}} %name of notes here
+        \vspace{5pt}
+        
+        \normalsize{Marjan} %My name here
+        \\
+        \normalsize{\today}
+
+\end{center}}
+
+
+\begin{document}
+	\maketitletwo
+	\paragraph{What these notes are about\\}
+	These notes are about..........    
+
+\end{document}
